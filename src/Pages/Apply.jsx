@@ -341,7 +341,7 @@ const Apply = ({ setLoading, loading }) => {
                           placeholder="10 أرقام"
                           maxLength="10"
                           inputMode="numeric"
-                          className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all"
+                          className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all"
                           required
                         />
                       </div>
@@ -363,7 +363,7 @@ const Apply = ({ setLoading, loading }) => {
                           placeholder="10 أرقام"
                           maxLength="10"
                           inputMode="numeric"
-                          className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all"
+                          className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all"
                           required
                         />
                       </div>
@@ -382,7 +382,7 @@ const Apply = ({ setLoading, loading }) => {
                           placeholder="10 أرقام"
                           maxLength="10"
                           inputMode="numeric"
-                          className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all"
+                          className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all"
                           required
                         />
                       </div>
@@ -399,7 +399,7 @@ const Apply = ({ setLoading, loading }) => {
                           value={formData.name}
                           onChange={handleChange}
                           placeholder="الاسم الكامل"
-                          className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all"
+                          className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all"
                           required
                         />
                       </div>
@@ -421,7 +421,7 @@ const Apply = ({ setLoading, loading }) => {
                       placeholder="05xxxxxxxx"
                       maxLength="10"
                       inputMode="numeric"
-                      className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all"
+                      className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all"
                       required
                     />
                   </div>
@@ -443,7 +443,7 @@ const Apply = ({ setLoading, loading }) => {
                         onChange={handleChange}
                         placeholder="الرقم الموجود في الاستمارة"
                         maxLength="15"
-                        className="h-12 px-4 rounded-xl border border-gray-300 focus:border-l focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all w-full flex-grow z-10"
+                        className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-l focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all w-full flex-grow z-10"
                         required
                       />
                     </div>
@@ -483,7 +483,7 @@ const Apply = ({ setLoading, loading }) => {
                       name="tameenFor"
                       value={formData.tameenFor}
                       onChange={handleChange}
-                      className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all bg-white"
+                      className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all bg-white"
                       required
                     >
                       <option value="ضد الغير">ضد الغير</option>
@@ -502,7 +502,7 @@ const Apply = ({ setLoading, loading }) => {
                       value={formData.startedDate}
                       onChange={handleChange}
                       min={new Date().toISOString().split("T")[0]}
-                      className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all text-right"
+                      className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all text-right"
                       required
                     />
                   </div>
@@ -517,7 +517,7 @@ const Apply = ({ setLoading, loading }) => {
                         name="nationality"
                         value={formData.nationality}
                         onChange={handleChange}
-                        className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all bg-white text-right"
+                        className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all bg-white text-right"
                         required
                       >
                         <option value="" disabled hidden>
@@ -537,7 +537,7 @@ const Apply = ({ setLoading, loading }) => {
                       name="purpose_of_use"
                       value={formData.purpose_of_use}
                       onChange={handleChange}
-                      className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all bg-white"
+                      className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all bg-white"
                       required
                     >
                       <option value="" disabled hidden>
@@ -561,7 +561,7 @@ const Apply = ({ setLoading, loading }) => {
                       name="car_year"
                       value={formData.car_year}
                       onChange={handleChange}
-                      className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all bg-white"
+                      className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all bg-white"
                       required
                     >
                       <option value="" disabled hidden>
@@ -588,7 +588,7 @@ const Apply = ({ setLoading, loading }) => {
                       value={formData.carPrice}
                       onChange={handleChange}
                       placeholder="مثلاً: 50000"
-                      className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all"
+                      className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all"
                       required
                     />
                   </div>
@@ -601,7 +601,7 @@ const Apply = ({ setLoading, loading }) => {
                       name="tameenAllType"
                       value={formData.tameenAllType}
                       onChange={handleChange}
-                      className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all bg-white"
+                      className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all bg-white"
                       required
                     >
                       <option value="الورشة">الورشة</option>
@@ -631,7 +631,7 @@ const Apply = ({ setLoading, loading }) => {
                       onChange={(e) => setCaptchaInput(e.target.value)}
                       placeholder="أدخل الرمز"
                       maxLength="4"
-                      className="h-12 px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all w-full text-center font-bold text-lg tracking-widest"
+                      className="h-12 text-right px-4 rounded-xl border border-gray-300 focus:border-[#0f4c72] focus:ring-4 focus:ring-[#0f4c72]/10 outline-none transition-all w-full text-center font-bold text-lg tracking-widest"
                       required
                     />
                   </div>
